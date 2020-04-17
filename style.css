@@ -14,10 +14,7 @@ body{
 
 #titulo{
     text-align: center;
-    position: fixed;
-    top: 10%;
-    left: 0;
-    right: 0;
+    margin-top: 60px;
 }
 
 /*SectionMenuPrincipal*/
@@ -28,10 +25,8 @@ body{
 /*Primero el Div(ubicacion), segundo los botones*/
 #butt_sup{
     text-align: center;
-    position: fixed;
-    top: 45%;
-    left: 10px;
-    right: 0;
+    margin-top: 60px;
+    margin-left: 15px;
 }
 #audioGuia{
    width: 140px;
@@ -42,14 +37,14 @@ body{
    background-size: contain;
    border: transparent; 
 }
+
+
 /*Botones sector medio*/
 /*Primero el Div(ubicacion), segundo los botones*/
 #butt_mid{
     text-align: center;
-    position: fixed;
-    top: 65%;
-    left: 10px;
-    right: 0;
+    margin-top: 50px;
+    margin-left: 15px;
 }
 #escaner{
     width: 120px;
@@ -78,17 +73,17 @@ body{
     background-size: contain;
     border: transparent;
 }
+
+
 /*Botones sector inferior*/
 /*Primero el Div(ubicacion), segundo los botones*/
-#butt_inf{   
-    display: flex;
-    text-align: center;
-    position: fixed;
-    top: 90%;
-    left: 0;
+#butt_inf{
+    display: flex;  
+    margin-top: 97px;
+    margin-left: -8px;
 }
 #perfil{
-    width: 205px;
+    width: 210px;
     height: 120px;
     /*imagen*/
     background: url(./assets/img/BotonPerfil.png);
@@ -97,7 +92,7 @@ body{
     border: transparent;
 }
 #regalos{
-    width: 205px;
+    width: 210px;
     height: 120px;
     /*imagen*/
     background: url(./assets/img/BotonRegalo.png);
@@ -105,7 +100,10 @@ body{
     background-size: contain;
     border: transparent;
 }
+
 /*SectionMenuPrincipal*/
+
+
 
 
 /*SectionProceres*/
@@ -154,8 +152,8 @@ table img{
 }
 
 #fotosProc{
-    position: fixed;
-    top: 90%;
+    position: absolute;
+    top: 180%;
     left: 0;
     width: 410px;
     height: 80px;
@@ -228,7 +226,7 @@ table img{
     font-family: 'Old Standard TT', serif;
     color: white;
     font-size: 12px;
-    margin-left: 50%;
+    margin-left: 48%;
 }
 #titulo_sube{
     font-family: 'Old Standard TT', serif;
@@ -375,7 +373,7 @@ table img{
     background-repeat: no-repeat;
     background-size: contain;
     border: transparent;
-    margin-left: 20%;
+    margin-left: 18%;
 }
 /*SectionPerfil*/
 
