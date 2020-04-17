@@ -18,7 +18,10 @@
         width: 100px;
     }
     #butt_inf{
-        margin-top:  17%;
+        position: fixed;
+        top: 90%;
+        right: 0;
+        left: 0;
         text-align: center;
     }
     #regalos,#perfil{
@@ -56,7 +59,10 @@
         margin-top: 20%;
     }
     #butt_inf{
-        margin-top: 35%;
+        position: fixed;
+        top: 91%;
+        right: 0;
+        left: 0;
     }
     /*Hasta aca es sector menu Principal*/
 
@@ -93,8 +99,10 @@
         width: 80px;
     }
     #butt_inf{
-        margin-top: 5%;
-        margin-left: -2.5%;
+        position: fixed;
+        top: 90%;
+        right: 0;
+        left: 0;
     }
     #regalos,#perfil{
         width: 160px;
@@ -147,6 +155,12 @@
 @media (max-width: 380px) and (min-height: 800px){ /*iPhoneX*/
     #Raf{
         margin-left: -5%;
+    }
+    #butt_inf{
+        position: fixed;
+        top: 91.5%;
+        right: 0;
+        left: 0;
     }
     /*Hasta aca es sector menu Principal*/
     #tituloPerfil{
