@@ -175,17 +175,4 @@
       /*Hasta aca es sector  Regalos*/
 }
 
-@media (max-width: 400px) and (max-height: 750px){ /*Samsung S9 Probar en MOZILLA*/
-    #Raf{ 
-        width: 280px;
-    }
-    #butt_sup{
-        margin-top: 30px;
-    }
-    #butt_mid{
-        margin-top: 40px;
-    }
-    #butt_inf{
-        margin-top: 80px;
-    }
-}
+
