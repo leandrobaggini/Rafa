@@ -16,7 +16,7 @@
    
 }
 
-@media (min-width: 410px) and (max-height: 710px){
+@media (min-width: 400px) and (max-height: 720px){
     #butt_sup{
         top: 46%;     
     }
