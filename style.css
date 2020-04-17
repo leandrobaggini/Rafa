@@ -1,0 +1,497 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+}
+
+body{
+    /*background-color: #3d3d3cff;*/
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#titulo{
+    text-align: center;
+    margin-top: 60px;
+}
+
+/*SectionMenuPrincipal*/
+#menuPrincipal{
+    display: block; 
+}
+/*Boton de audio guia*/
+/*Primero el Div(ubicacion), segundo los botones*/
+#butt_sup{
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 15px;
+}
+#audioGuia{
+   width: 140px;
+   height: 100px;
+   /*imagen*/
+   background: url(./assets/img/Recorrido.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   border: transparent; 
+}
+
+
+/*Botones sector medio*/
+/*Primero el Div(ubicacion), segundo los botones*/
+#butt_mid{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+#escaner{
+    width: 120px;
+    height: 80px;
+    /*imagen*/
+    background: url(./assets/img/Edificios.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent; 
+}
+#config{
+    width: 120px;
+    height: 80px;
+    /*imagen*/
+    background: url(./assets/img/Config.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+}
+#proceres{
+    width: 120px;
+    height: 80px;
+    /*imagen*/
+    background: url(./assets/img/Proceres.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+}
+
+
+/*Botones sector inferior*/
+/*Primero el Div(ubicacion), segundo los botones*/
+#butt_inf{
+
+    display: flex;  
+}
+#perfil{
+    width: 205px;
+    height: 120px;
+    position: absolute;
+    top: 90%;
+    left: 0;
+    /*imagen*/
+    background: url(./assets/img/BotonPerfil.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+}
+#regalos{
+    width: 205px;
+    height: 120px;
+    position: absolute;
+    top: 90%;
+    right: 0;
+    /*imagen*/
+    background: url(./assets/img/BotonRegalo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+}
+
+/*SectionMenuPrincipal*/
+
+
+
+
+/*SectionProceres*/
+#menuProceres{
+    display: none; 
+}
+
+#headerProc{
+    display: flex; 
+    justify-content: space-between;
+}
+#tituloProc{
+    font-size: 25px;
+    font-family: 'Old Standard TT', serif;
+    color: white;
+    margin-top: 20px;
+}
+#escanerProc{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 60px;
+    background: url(./assets/img/Camara.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+}
+#exitProc{
+    margin-top: 5px;
+    margin-right: 12px;
+    width: 60px;
+    background: url(./assets/img/Salir.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+}
+
+table img{
+    width: 120px;
+    height: 160px;
+    padding: 4px;
+    
+}
+
+#menuProceres table td:active{
+    background-color: rgb(139, 24, 24)
+}
+
+#fotosProc{
+    position: fixed;
+    top: 90%;
+    left: 0;
+    width: 410px;
+    height: 80px;
+    background: url(./assets/img/CuadroDB.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #3d3d3cff;;
+    border: transparent;
+
+    /*Texto interno*/
+    font-size: 16px;
+    color: white;
+    padding: auto;
+    font-family: 'Old Standard TT', serif;
+}
+/*SectionProceres*/
+
+
+
+
+/*SectionRegalos*/
+#menuRegalos{
+    display: none ;
+}
+#headerRegalos{
+    display: flex;
+}
+#tituloReg{
+    font-size: 35px;
+    font-family: 'Old Standard TT', serif;
+    color: white;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+#exitReg{   
+    width: 60px;
+    background: url(./assets/img/Salir.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+    margin-left: 15%;
+    
+}
+
+#menuRegalos table input{   
+    width: 100px;
+    height: 90px;
+    background: url(./assets/img/HexRegalo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+    font-family: 'Old Standard TT', serif;
+    color: white;
+    font-size: 20px;
+}
+
+
+#titulo_estac{
+    font-family: 'Old Standard TT', serif;
+    color: white;
+    font-size: 20px;
+    margin-left: 5%;
+}
+#estacionamiento{
+   margin-left: 7%;
+   padding: 15px;
+}
+#subtit_estac{
+    font-family: 'Old Standard TT', serif;
+    color: white;
+    font-size: 12px;
+    margin-left: 50%;
+}
+#titulo_sube{
+    font-family: 'Old Standard TT', serif;
+    color: white;
+    font-size: 20px;
+    margin-left: 5%;
+    
+}
+#sube{
+    margin-left: 7%;
+    padding: 15px;
+}
+#subtit_sube{
+    font-family: 'Old Standard TT', serif;
+    color: white;
+    font-size: 12px;
+    margin-left: 50%;
+}
+/*SectionRegalos*/
+
+
+
+/*SectionConfiguraciones*/
+#menuConfig{
+    display: none;
+}
+#headerConfig{
+    display: flex;
+}
+#tituloConfig{
+    font-size: 30px;
+    font-family: 'Old Standard TT', serif;
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#exitConfig{   
+    width: 60px;
+    background: url(./assets/img/Salir.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+    margin-left: 28px;
+}
+#audio{
+    text-align: center;
+    margin-top: 30%;
+    color: white;
+    font-size: 20px;
+    font-family: 'Old Standard TT', serif;
+}
+
+#butt_musica{
+    margin-top: 15%;
+    margin-left: 7%;
+    width: 100px;
+    height: 60px;
+    background: url(./assets/img/On.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+}
+#butt_efectos{
+    width: 100px;
+    height: 60px;
+    background: url(./assets/img/On.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+    
+}
+
+#asistencia{
+    text-align: center;
+    margin-top: 15%;
+}
+#politica{
+    width: 350px;
+    height: 20px;
+    background: url(./assets/img/Vol1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+    /*Letra interna*/
+    color: white;
+    font-size: 15px;
+    font-family: 'Old Standard TT', serif;
+    padding-top: 3px;
+}
+#ayuda{
+    width: 350px;
+    height: 20px;
+    background: url(./assets/img/Vol1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+    margin-top: 10%;
+    /*Letra interna*/
+    color: white;
+    font-size: 15px;
+    font-family: 'Old Standard TT', serif;
+    
+}
+#logos{
+    margin-top: 12%;
+    text-align: center;
+}
+#logoCosmo{
+    margin-left: 5%; 
+    position: relative;
+    top: -15px;
+}
+
+#footerConfig{
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: 'Old Standard TT', serif;
+}
+/*SectionConfiguraciones*/
+
+
+
+
+/*SectionPerfil*/
+#menuPerfil{
+    display: none;
+}
+#headerPerfil{
+    display: flex;  
+    
+}
+#tituloPerfil{
+    font-size: 30px;
+    font-family: 'Old Standard TT', serif;
+    color: white;
+    margin-left: 35%;
+    margin-top: 10px;
+}
+#exitPerfil{   
+    width: 60px;
+    background: url(./assets/img/Salir.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+    margin-left: 20%;
+}
+/*SectionPerfil*/
+
+
+
+/*SectionScaner*/
+#menuScaner{
+    display: none;
+}
+#exitScaner{
+    width: 100px;
+    height: 50px;
+    background: url(./assets/img/Salir.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+    margin-left: 80%;
+}
+#divisionMapa{
+    display: block;
+    text-align: center;
+    
+}
+#tituloEdif{
+    font-family: 'Old Standard TT', serif;
+    color: white;
+    margin-top: -10%; 
+}
+#TituloPj{
+    font-family: 'Old Standard TT', serif;
+    color: white;
+}
+#mapaRaf{
+    margin-top: 10%;
+    margin-left: -80px;
+    /* opacity: 0.5; */
+}
+#ubi_plaza{
+    width: 100px;
+    height: 50px;
+    background: url(./assets/img/ubicacion.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+    position: absolute;
+    top: 33%;
+    left: 13%;
+    
+}
+#cuadroPlaza{
+    display: none;
+    width: 350px;
+    height: 220px;
+    background-color: grey;
+    position: absolute;
+    top: 23%;
+    left: 8%;
+}
+#plaza25{
+    position: absolute;
+    top: 6%;
+    left: 7%;
+}
+#ver{
+    width: 175px;
+    height: 40px;
+    position: absolute;
+    top: 82%;
+    
+}
+#volver{
+    width: 175px;
+    height: 40px;
+    position: absolute;
+    top: 82%;
+    left: 0%;
+}
+
+#divisionProc{
+    margin-top: 30%;
+    display: block;
+    text-align: center;
+}
+
+/*SectionScaner*/
+
+/*SectionLehmann*/
+#Lehmann{
+    display: none;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    margin-top: 60%;
+}
+#exitLehmann{
+    width: 100px;
+    height: 50px;
+    background: url(./assets/img/Salir.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+    margin-left: 80%;
+}
+#pj{
+    opacity: 0.5;
+    margin-top: 12%;
+    margin-left: 5%;
+    margin-bottom: -10px;
+}
+#cuadroDialogo{
+  margin-top: 2%;
+  margin-left: -7px;
+}
+/*SectionLehmann*/
