@@ -15,3 +15,15 @@
     }
    
 }
+
+@media (min-width: 410px) and (max-height: 710px){
+    #butt_sup{
+        top: 46%;     
+    }
+    #escaner, #config, #proceres{
+        width: 90px;
+    }
+    #perfil, #regalos{
+        width: 160px;
+    }
+}
