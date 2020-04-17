@@ -79,7 +79,7 @@ body{
 /*Primero el Div(ubicacion), segundo los botones*/
 #butt_inf{
     display: flex;  
-    margin-top: 97px;
+    margin-top: 65px;
     margin-left: -8px;
 }
 #perfil{
