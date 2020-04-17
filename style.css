@@ -78,9 +78,10 @@ body{
 /*Botones sector inferior*/
 /*Primero el Div(ubicacion), segundo los botones*/
 #butt_inf{
-    display: flex;  
-    margin-top: 75px;
-    margin-left: -8px;
+    display: flex;
+    text-align: center; 
+    margin-top: 20%;
+    margin-left: -2%;
 }
 #perfil{
     width: 210px;
@@ -102,7 +103,6 @@ body{
 }
 
 /*SectionMenuPrincipal*/
-
 
 
 
