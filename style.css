@@ -14,7 +14,8 @@ body{
 
 #titulo{
     text-align: center;
-    margin-top: 60px;
+    position: relative;
+    top: 50px;
 }
 
 /*SectionMenuPrincipal*/
@@ -25,8 +26,8 @@ body{
 /*Primero el Div(ubicacion), segundo los botones*/
 #butt_sup{
     text-align: center;
-    margin-top: 60px;
-    margin-left: 15px;
+    position: relative;
+    top: 110px;
 }
 #audioGuia{
    width: 140px;
@@ -37,14 +38,12 @@ body{
    background-size: contain;
    border: transparent; 
 }
-
-
 /*Botones sector medio*/
 /*Primero el Div(ubicacion), segundo los botones*/
 #butt_mid{
     text-align: center;
-    margin-top: 50px;
-    margin-left: 15px;
+    position: relative;
+    top: 160px;
 }
 #escaner{
     width: 120px;
@@ -73,20 +72,18 @@ body{
     background-size: contain;
     border: transparent;
 }
-
-
 /*Botones sector inferior*/
 /*Primero el Div(ubicacion), segundo los botones*/
-#butt_inf{
-
-    display: flex;  
+#butt_inf{   
+    display: flex;
+    text-align: center;
+    position: fixed;
+    top: 90%;
+    left: 0;
 }
 #perfil{
     width: 205px;
     height: 120px;
-    position: absolute;
-    top: 90%;
-    left: 0;
     /*imagen*/
     background: url(./assets/img/BotonPerfil.png);
     background-repeat: no-repeat;
@@ -96,18 +93,13 @@ body{
 #regalos{
     width: 205px;
     height: 120px;
-    position: absolute;
-    top: 90%;
-    right: 0;
     /*imagen*/
     background: url(./assets/img/BotonRegalo.png);
     background-repeat: no-repeat;
     background-size: contain;
     border: transparent;
 }
-
 /*SectionMenuPrincipal*/
-
 
 
 
