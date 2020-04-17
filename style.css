@@ -14,8 +14,10 @@ body{
 
 #titulo{
     text-align: center;
-    position: relative;
-    top: 50px;
+    position: fixed;
+    top: 10%;
+    left: 0;
+    right: 0;
 }
 
 /*SectionMenuPrincipal*/
@@ -26,8 +28,10 @@ body{
 /*Primero el Div(ubicacion), segundo los botones*/
 #butt_sup{
     text-align: center;
-    position: relative;
-    top: 110px;
+    position: fixed;
+    top: 45%;
+    left: 10px;
+    right: 0;
 }
 #audioGuia{
    width: 140px;
@@ -42,8 +46,10 @@ body{
 /*Primero el Div(ubicacion), segundo los botones*/
 #butt_mid{
     text-align: center;
-    position: relative;
-    top: 160px;
+    position: fixed;
+    top: 65%;
+    left: 10px;
+    right: 0;
 }
 #escaner{
     width: 120px;
@@ -100,7 +106,6 @@ body{
     border: transparent;
 }
 /*SectionMenuPrincipal*/
-
 
 
 /*SectionProceres*/
