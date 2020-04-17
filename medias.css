@@ -1,4 +1,4 @@
-@media (min-width: 340px) and (max-height: 650px){ /*Galaxy S5*/
+@media (min-width: 340px) and (max-height: 700px){ /*Galaxy S5* - iPhone 6/7/8 */
     /*SectionMenuPrincipal*/
     #titulo{
        top: 5%;
@@ -7,23 +7,64 @@
         top: 42%;
         left: 24px;
     }
+
     #escaner, #config, #proceres{
         width: 100px;
     }
+    #butt_inf{
+        left: -2px;
+        top: 89.5%;
+    }
     #perfil, #regalos{
-        width: 180px;
+        width: 190px;
     }
    
 }
 
-@media (min-width: 400px) and (max-height: 720px){
-    #butt_sup{
-        top: 46%;     
+@media (min-width: 400px) and (min-height: 800px){ /*Pixel2 XL*/
+    #butt_inf{
+        top: 91%;
+    }
+}
+
+
+@media (min-width: 300px) and (max-height: 600px){ /*iPhone5*/
+    #Raf{
+        width: 300px;
+    }
+    #titulo{
+        top: 4%;
+    }
+    #audioGuia{
+        width: 120px;
+    }
+    #butt_mid{
+        top: 68%;
+        left: 5px;
     }
     #escaner, #config, #proceres{
-        width: 90px;
+        width: 85px;
     }
     #perfil, #regalos{
         width: 160px;
     }
 }
+
+@media (max-width: 380px) and (min-height: 800px){ /*iPhoneX*/
+    #butt_sup{
+        left: 20px;
+    }
+    #butt_mid{
+        left: 5px;
+    }
+    #escaner, #config, #proceres{
+        width: 100px;
+    }
+    #butt_inf{
+        top: 92%;
+    }
+    #perfil, #regalos{
+        width: 187px;
+    }
+}
+
