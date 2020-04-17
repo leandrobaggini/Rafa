@@ -80,8 +80,10 @@ body{
 #butt_inf{
     display: flex;
     text-align: center; 
-    margin-top: 20%;
-    margin-left: -2%;
+    position: fixed;
+    top: 90%;
+    right: 0;
+    left: 0;
 }
 #perfil{
     width: 210px;
