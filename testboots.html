@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel = "icon" type = "image/png" href="favicon/web_cosmo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel = "stylesheet" href="testStyle.css">
+    <style media = "screen">
+        @media (max-width: 330px){
+            #butt_inf{
+                position: relative;
+                top: 40px;
+            }
+        }
+        @media (min-height: 800px){
+            #butt_sup{
+                position: relative;
+                top: 50px;
+            }
+            #butt_mid{
+                position: relative;
+                top: 80px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class = "text-center mt-5"><img id = "titulo" src = "assets/img/Titulo.png" class="img-fluid" alt="Responsive image" width="300"></div>
+        <div id = "butt_sup" class = "text-center mt-5">
+            <input id = "audioGuia" type = "button">
+        </div>
+        
+        <div class ="d-flex justify-content-center  mt-4 ml-3" id = "butt_mid">
+            <input id = "escaner" type = "button">
+            <input id = "config" type = "button">
+            <input id = "proceres" type = "button">
+        </div>
+        
+        <div class ="d-flex fixed-bottom" id = "butt_inf">
+            <input id = "perfil" type = "button" >
+            <input id = "regalos" type = "button" >
+        </div>
+    </section>
+    
+</body>
+</html>
