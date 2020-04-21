@@ -1,0 +1,200 @@
+*{
+    outline: none;
+}
+
+body{
+    background-color: black;  
+}
+
+h1{
+    font-family: 'Old Standard TT', serif;
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+h2{
+    font-family: 'Old Standard TT', serif;
+    color: white;
+    font-size: 25px;
+}
+h3{
+    font-family: 'Old Standard TT', serif;
+    color: white;
+    font-size: 15px;
+}
+
+footer{
+    margin-top: 15%;
+}
+#exitConfig, #exitProc, #exitReg, #exitPerf, #exitScan{
+    width: 50px;
+    height: 50px;
+    background: url(./assets/img/Salir.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+}
+
+#sectionMenu{
+    display: block;
+}
+
+#audioGuia{
+   width: 110px;
+   height: 110px; 
+   background: url(./assets/img/Recorrido.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   border: transparent; 
+}
+
+#escaner{
+    width: 120px;
+    height: 80px;
+    /*imagen*/
+    background: url(./assets/img/Edificios.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent; 
+}
+#config{
+    width: 120px;
+    height: 80px;
+    /*imagen*/
+    background: url(./assets/img/Config.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+}
+#proceres{
+    width: 120px;
+    height: 80px;
+    /*imagen*/
+    background: url(./assets/img/Proceres.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+}
+
+#perfil{
+    width: 300px;
+    height: 120px;
+    /*imagen*/
+    background: url(./assets/img/BotonPerfil.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+}
+#regalos{
+    width: 300px;
+    height: 120px;
+    /*imagen*/
+    background: url(./assets/img/BotonRegalo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+}
+
+#butt_inf{
+    margin-top: 15%;
+}
+#sectionConfig{
+    display: none;
+}
+
+
+#musica, #efectos{
+    width: 50px;
+    height: 50px;
+    background: url(./assets/img/On.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+}
+
+#privacidad, #ayuda{
+    height: 80px;
+    background: url(./assets/img/BarraText.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+}
+
+#privacidad{
+    margin-top: -5%;
+}
+#cosmo{
+    margin-top: -2%;
+}
+#camaraProc{
+    width: 50px;
+    height: 50px;
+    background: url(./assets/img/Camara.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+}
+
+#sectionProc{
+    display: none;
+}
+
+table img{
+    padding: 4px;
+}
+
+#sectionProc table td:active{
+    background-color: rgb(131, 14, 14)
+}
+
+#fotosProc{
+    height: 80px;
+    background: url(./assets/img/CuadroDB.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+    color: white;
+    font-family: 'Old Standard TT', serif;
+}
+
+#sectionRegalos{
+    display: none;
+}
+
+#sectionRegalos table input{   
+    width: 100px;
+    height: 90px;
+    background: url(./assets/img/HexRegalo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+    font-family: 'Old Standard TT', serif;
+    color: white;
+    font-size: 20px;
+}
+
+#sectionPerfil{
+    display: none;
+}
+
+#sectionEscaner{
+    display: none;
+}
+
+#ubi_plaza{
+    width: 50px;
+    height: 40px;
+    background: url(./assets/img/ubicacion.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+
