@@ -18,6 +18,37 @@
         $("#sectionMenu").fadeIn("slow");
     })
 
+    $("#regalos").click(function(){
+        $("#sectionMenu").fadeOut("fast");
+        $("#sectionRegalos").fadeIn("slow");
+    })
+
+    $("#exitReg").click(function(){
+        $("#sectionRegalos").fadeOut("fast");
+        $("#sectionMenu").fadeIn("slow");
+    })
+
+
+    $("#perfil").click(function(){
+        $("#sectionMenu").fadeOut("fast");
+        $("#sectionPerfil").fadeIn("slow");
+    })
+
+    $("#exitPerf").click(function(){
+        $("#sectionPerfil").fadeOut("fast");
+        $("#sectionMenu").fadeIn("slow");
+    })
+
+    $("#escaner").click(function(){
+        $("#sectionMenu").fadeOut("fast");
+        $("#sectionEscaner").fadeIn("slow");
+    })
+
+    $("#exitScan").click(function(){
+        $("#sectionEscaner").fadeOut("fast");
+        $("#sectionMenu").fadeIn("slow");
+    })
+    //Idas y vueltas de los exit y botones
 
 
     
