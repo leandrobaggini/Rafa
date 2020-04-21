@@ -10,7 +10,7 @@ h1{
     font-family: 'Old Standard TT', serif;
     color: white;
     font-size: 30px;
-    
+    text-decoration: underline;
 }
 
 h2{
@@ -24,7 +24,10 @@ h3{
     font-size: 15px;
 }
 
-#exitConfig, #exitProc{
+footer{
+    margin-top: 15%;
+}
+#exitConfig, #exitProc, #exitReg, #exitPerf, #exitScan{
     width: 50px;
     height: 50px;
     background: url(./assets/img/Salir.png);
@@ -141,7 +144,7 @@ table img{
     padding: 4px;
 }
 
-table td:active{
+#sectionProc table td:active{
     background-color: rgb(131, 14, 14)
 }
 
@@ -154,3 +157,42 @@ table td:active{
     color: white;
     font-family: 'Old Standard TT', serif;
 }
+
+#sectionRegalos{
+    display: none;
+}
+
+#sectionRegalos table input{   
+    width: 100px;
+    height: 90px;
+    background: url(./assets/img/HexRegalo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+    font-family: 'Old Standard TT', serif;
+    color: white;
+    font-size: 20px;
+}
+
+#sectionPerfil{
+    display: none;
+}
+
+#sectionEscaner{
+    display: none;
+}
+
+#ubi_plaza{
+    width: 50px;
+    height: 40px;
+    background: url(./assets/img/ubicacion.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
